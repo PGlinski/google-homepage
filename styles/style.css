@@ -1,0 +1,71 @@
+/* Header CSS */
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+
+}
+
+li {
+	display: inline;
+	float: right;
+}
+
+li a {
+	display: block;
+	color: black;
+	padding: 5px 5px;
+}
+
+li a:link {
+	text-decoration: none;
+}
+
+li a:hover{
+	text-decoration: underline;
+}
+
+
+
+/* Main google image and search form */
+
+
+img { /*Google above search form*/
+	height: 300px;
+	width: 350px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* FORM */
+
+#search-box {
+	width: 600px;
+	height: 35px;
+	border: 1px solid gray;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.form-sub {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+
+/* Footer */
+
+.foot1 {
+	float: left;
+
+}
+
+.foot2 {
+	float: right;
+}
